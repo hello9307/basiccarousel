@@ -1,0 +1,63 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-17 20:01:22
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-17 20:37:05
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 920px;
+	margin: 50px auto;
+}
+#tab{
+	width: 500px;
+	height: 200px;
+	padding: 7px;
+	border: 1px solid #ddd;
+	margin: 0 auto;
+}
+#tab .scroll{
+	width: 500px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+#tab .scroll ul{
+	width: 4000px;
+	position: absolute;
+}
+#tab .scroll ul li{
+	float: left;
+}
+#tab .scroll ul li img{
+	width: 500px;
+	height: 200px;
+}
+#tab .scroll ol{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -170px;
+}
+#tab .scroll ol li{
+	float: left;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 10px;
+	text-align: center;
+	background-color: #fff;
+	color: #000;
+}
+#tab .scroll .current{
+	background-color: yellow;
+}
